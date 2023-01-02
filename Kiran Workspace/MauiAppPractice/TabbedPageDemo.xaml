@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPractice.TabbedPageDemo"
+             Title="TabbedPageDemo"
+             BarBackgroundColor="Gray"
+            BarTextColor="White"
+            SelectedTabColor="DarkCyan"
+            UnselectedTabColor="LightCyan">
+    <ContentPage Title="Profile" IconImageSource="dotnet_bot.svg">
+    </ContentPage>
+    <ContentPage Title="Moments" IconImageSource="dotnet_bot.svg">
+        <Label Text="This is Tab 2">
+        </Label>
+    </ContentPage>
+    <ContentPage Title="Pictures" IconImageSource="dotnet_bot.svg">
+    </ContentPage>
+    
+</TabbedPage>
