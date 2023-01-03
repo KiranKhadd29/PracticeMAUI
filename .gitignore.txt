@@ -1,7 +1,6 @@
-Kiran Workspace/MauiAppPractice/bin/
-Kiran Workspace/MauiAppPractice/obj/
-Kiran Workspace/MauiAppPractice/.vs/
-Sayali Workspace/MAUITutorial/MAUITutorial/bin/
-Sayali Workspace/MAUITutorial/MAUITutorial/obj/
-Sayali Workspace/MAUITutorial/.vs/
-
+KiranWorkspace/MauiAppPractice/.vs/
+KiranWorkspace/MauiAppPractice/bin/
+KiranWorkspace/MauiAppPractice/obj/
+SayaliWorkspace/MAUITutorial/.vs/
+SayaliWorkspace/MAUITutorial/MAUITutorial/bin/
+SayaliWorkspace/MAUITutorial/MAUITutorial/obj/
