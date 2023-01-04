@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPractice.PresentationControlDemoPage"
+             Title="PresentationControlDemoPage">
+    <ScrollView>
+    <StackLayout>
+        <BoxView BackgroundColor="Gray" HeightRequest="200"/>
+
+        <Label 
+            Text="Label Presentation"
+            TextColor="Cyan"
+            FontAttributes="Bold" FontSize="Title"
+            HorizontalOptions="Center"/>
+        <Ellipse Fill="DarkRed" 
+                 Stroke="Yellow" StrokeThickness="12" 
+                 HeightRequest="50" 
+                 HorizontalOptions="Center"
+                 WidthRequest="100"/>
+        <Rectangle Fill="Purple" 
+                 Stroke="Yellow" StrokeThickness="10" 
+                 HeightRequest="100" 
+                 WidthRequest="150"
+                 RadiusX="12" RadiusY="12"/>
+        <Line Stroke="red" X1="0" Y1="50" X2="150" Y2="200"
+              StrokeThickness="12" />
+        <Polygon Fill="DarkRed" Points="30,10,60,40,10,40"
+                 Stroke="Yellow" StrokeThickness="6" 
+                 />
+        <Polygon Fill="Yellow" Points="30,10,60,40,10,40"
+                 Stroke="White" StrokeThickness="6" StrokeDashArray="1,1" StrokeDashOffset="6" 
+                 HorizontalOptions="End"/>
+            <Border Stroke="Yellow" StrokeThickness="5"
+                    Background="White"
+                    Padding="16.8"
+                    HorizontalOptions="Center">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="50,0,0,50" />
+                </Border.StrokeShape>
+
+                <Label Text="Demo Border"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
+            </Border>
+            <Frame Margin="10"
+               BackgroundColor="Black"
+               Padding="10">
+                <Image Source="kiyalogosmall.png" />
+            </Frame>
+            <Path Aspect="Uniform" Data="M 10, 100 L 100, 100 100, 50Z"
+              HorizontalOptions="Center"
+              Stroke="white"/>
+            <WebView HeightRequest="500" Source="https://www.google.com" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage> 
