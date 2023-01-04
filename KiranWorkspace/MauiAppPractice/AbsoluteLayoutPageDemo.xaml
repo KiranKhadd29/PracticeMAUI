@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPractice.AbsoluteLayoutPageDemo"
+             Title="AbsoluteLayoutPageDemo">
+    <AbsoluteLayout>
+        <!--<Label 
+            Text="Label 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            AbsoluteLayout.LayoutBounds="0,300,300,100" />
+        <Label 
+            Text="Label 2"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />-->
+        <Button 
+            Text="Button 1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            AbsoluteLayout.LayoutBounds="1,300,300,.5" 
+            AbsoluteLayout.LayoutFlags="HeightProportional,XProportional"/>
+        <Button 
+            Text="Button 2"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+    </AbsoluteLayout>
+</ContentPage>
