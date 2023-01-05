@@ -17,6 +17,7 @@ public partial class App : Application
 		//MainPage = new GridLayoutDemoPage();
 		//MainPage = new AbsoluteLayoutPageDemo();
 		//MainPage = new FlexLayoutPageDemo();
-		MainPage = new PresentationControlDemoPage();
+		//MainPage = new PresentationControlDemoPage();
+		MainPage = new CommandControlDemoPage();
     }
 }
