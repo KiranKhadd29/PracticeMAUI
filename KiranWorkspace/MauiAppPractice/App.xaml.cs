@@ -19,6 +19,8 @@ public partial class App : Application
 		//MainPage = new FlexLayoutPageDemo();
 		//MainPage = new PresentationControlDemoPage();
 		//MainPage = new CommandControlDemoPage();
-        MainPage = new InputControlsDemoPage();
+        //MainPage = new InputControlsDemoPage();
+		//MainPage = new ActivityControlDemoPage();	
+		MainPage = new CollectionControlsDemoPage();	
     }
 }

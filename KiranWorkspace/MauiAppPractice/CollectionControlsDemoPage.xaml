@@ -111,7 +111,7 @@
                     <EntryCell Text="First Entry Cell" Label="First Entry" />
                     <SwitchCell Text="Table Entry" />
                     <ImageCell Text="DotNet MAUI Img" Detail="Detail of Img Cell" 
-                                ImageSource="dotnet_bot.svg" />
+                                ImageSource="dotnet_bot.svg" /> 
                 </TableSection>
                 <TableSection Title="Second">
                     <TextCell Text="Second Text Cell" Detail="Details of Second Cell" />
