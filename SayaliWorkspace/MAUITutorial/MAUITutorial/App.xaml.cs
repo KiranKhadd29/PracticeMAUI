@@ -13,6 +13,7 @@ public partial class App : Application
         // MainPage = new StackPageDemo();
         // MainPage = new GridPageDemo();
         // MainPage = new AbsoluteLayoutDemo();
-        MainPage = new FlexLayoutDemo();
+        // MainPage = new FlexLayoutDemo();
+        MainPage = new PresentationControl();
     }
 }
