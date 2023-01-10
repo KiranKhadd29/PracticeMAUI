@@ -17,5 +17,7 @@
             <BoxView FlexLayout.Basis="50"
                      Color="Orange"/>
         </FlexLayout>
+        <Label Text="Footer" HorizontalTextAlignment="Center"
+               BackgroundColor="Gray"/>
     </FlexLayout>
 </ContentPage>
