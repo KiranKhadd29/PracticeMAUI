@@ -16,6 +16,9 @@
     <MauiXaml Update="CommandControlDemoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="DataBindingDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FlexLayoutPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -23,6 +26,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="PresentationControlDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ResourcesDemoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>
