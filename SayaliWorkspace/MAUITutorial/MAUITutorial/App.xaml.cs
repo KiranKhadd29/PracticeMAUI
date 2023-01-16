@@ -15,6 +15,10 @@ public partial class App : Application
         // MainPage = new AbsoluteLayoutDemo();
         // MainPage = new FlexLayoutDemo();
         // MainPage = new PresentationControl();
-        MainPage = new CommandsDemo();
+        // MainPage = new CommandsDemo();
+        // MainPage = new InputControls();
+        // MainPage = new ActivityControl();
+        // MainPage = new CollectionControl();
+        MainPage = new ResourceExample();
     }
 }
