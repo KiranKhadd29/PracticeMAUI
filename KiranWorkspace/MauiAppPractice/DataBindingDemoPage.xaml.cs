@@ -10,14 +10,17 @@ public partial class DataBindingDemoPage : ContentPage
 	{
 		MauiAppPractice.Model.Employee  emp= new MauiAppPractice.Model.Employee()
 		{
-			Id= 1,
+			Id = 4,
 			Name = "Kiran B Khadd",
 			Age= 25,
 		};
-		Binding empBinding = new Binding();
-        empBinding.Source= emp;
-		empBinding.Path = "Name";
-		EmployeeLabel.SetBinding(Label.TextProperty, empBinding);
+		//Binding empBinding = new Binding();
+		//empBinding.Source= emp;
+		//empBinding.Path = "Name";
+		//EmployeeLabel.SetBinding(Label.TextProperty, empBinding);
+		//BindingContext= emp;
+		EmployeeLabel.BindingContext= emp;
+		EmployeeLabel.SetBinding(Label.TextProperty, "Age");
 
     }
 
