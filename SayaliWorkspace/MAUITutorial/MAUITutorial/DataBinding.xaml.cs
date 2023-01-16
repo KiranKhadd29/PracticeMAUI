@@ -14,12 +14,15 @@ public partial class DataBinding : ContentPage
 			Name = "Sayali",
 			Age = 25
 		};
-		Binding empBinding= new Binding();
-		empBinding.Source = emp;
-		empBinding.Path = "Name";
-		EmployeeLbl.SetBinding(Label.TextProperty, empBinding);
+		//Binding empBinding= new Binding();
+		//empBinding.Source = emp;
+		//empBinding.Path = "Name";
+		//EmployeeLbl.SetBinding(Label.TextProperty, empBinding);
 
 		//Entry entrylbl= new Entry();
 
+		//BindingContext= emp;
+		EmployeeLbl.BindingContext= emp;
+		EmployeeLbl.SetBinding(Label.TextProperty, "Name");
 	}
 }
