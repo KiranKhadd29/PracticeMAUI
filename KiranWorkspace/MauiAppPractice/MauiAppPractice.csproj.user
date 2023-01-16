@@ -22,7 +22,13 @@
     <MauiXaml Update="FlexLayoutPageDemo.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="INotifyChangedDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="InputControlsDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ModesDempPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="PresentationControlDemoPage.xaml">

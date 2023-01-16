@@ -23,6 +23,8 @@ public partial class App : Application
 		//MainPage = new ActivityControlDemoPage();	
 		//MainPage = new CollectionControlsDemoPage();	
 		//MainPage = new ResourcesDemoPage();
-		MainPage = new DataBindingDemoPage();
+		//MainPage = new DataBindingDemoPage();
+		//MainPage = new ModesDempPage();
+		MainPage = new INotifyChangedDemoPage();
     }
 }
