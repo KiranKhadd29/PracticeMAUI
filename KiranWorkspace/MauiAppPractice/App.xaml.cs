@@ -1,4 +1,6 @@
-﻿namespace MauiAppPractice;
+﻿using MauiAppPractice.MVVM.Views;
+
+namespace MauiAppPractice;
 
 public partial class App : Application
 {
@@ -25,6 +27,8 @@ public partial class App : Application
 		//MainPage = new ResourcesDemoPage();
 		//MainPage = new DataBindingDemoPage();
 		//MainPage = new ModesDempPage();
-		MainPage = new INotifyChangedDemoPage();
+		//MainPage = new INotifyChangedDemoPage();
+		//MainPage = new ProductDemoPage();	
+		MainPage = new BindCollectionViewDemoPage();
     }
 }

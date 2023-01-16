@@ -31,6 +31,12 @@
     <MauiXaml Update="ModesDempPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MVVM\Views\BindCollectionViewDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="MVVM\Views\ProductDemoPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="PresentationControlDemoPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
