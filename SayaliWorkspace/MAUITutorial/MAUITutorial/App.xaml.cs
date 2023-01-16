@@ -19,6 +19,7 @@ public partial class App : Application
         // MainPage = new InputControls();
         // MainPage = new ActivityControl();
         // MainPage = new CollectionControl();
-        MainPage = new ResourceExample();
+        // MainPage = new ResourceExample();
+        MainPage = new DataBinding();
     }
 }
