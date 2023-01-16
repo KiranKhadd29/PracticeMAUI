@@ -12,11 +12,22 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        
-        <Label Text="{Binding Name,Source={StaticResource employee}}"
+
+        <Label Rotation="{Binding Source={x:Reference Slider1},Path=Value}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               Text="Kiyaaa"
+               />
+        <Slider Minimum="0" Maximum="360" x:Name="Slider1"/>
+        <!--<Label Text="{Binding Id}"
                VerticalOptions="Center"
                HorizontalOptions="Center"/>
-        
+        <Label Text="{Binding Name}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        <Label Text="{Binding Age}"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>-->        
         <Button Text="Change Name" Clicked="Button_Clicked"
                 VerticalOptions="Center" HorizontalOptions="Center"/>
     </VerticalStackLayout>
