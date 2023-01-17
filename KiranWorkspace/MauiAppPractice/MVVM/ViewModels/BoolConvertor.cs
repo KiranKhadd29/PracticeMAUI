@@ -13,7 +13,7 @@ namespace MauiAppPractice.MVVM.ViewModels
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             string married = value.ToString();
-            if (married == "I AM Married")
+            if (married == "Married")
             {
                 return true;
             }
@@ -22,7 +22,12 @@ namespace MauiAppPractice.MVVM.ViewModels
          
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            return null;
+            var boolean =  (bool)value;
+            if(boolean)
+            {
+                return "Married";
+            }
+            return "Not Married";
         }
     }
 }
