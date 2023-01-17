@@ -29,6 +29,7 @@ public partial class App : Application
 		//MainPage = new ModesDempPage();
 		//MainPage = new INotifyChangedDemoPage();
 		//MainPage = new ProductDemoPage();	
-		MainPage = new BindCollectionViewDemoPage();
+		//MainPage = new BindCollectionViewDemoPage();
+		MainPage = new CovertorDemoPage();
     }
 }
