@@ -8,5 +8,14 @@
             Text="Click To Command"
             Command="{Binding CommandClick}" 
              />
+        <SearchBar x:Name="search1" 
+                   SearchCommand="{Binding CommandSearch}"
+                   SearchCommandParameter="{Binding Source={x:Reference search1},Path=Text}"/>
+
+        <Entry Placeholder="Enter First Number" Text="{Binding First}" />
+        <Entry Placeholder="Enter Second Number" Text="{Binding Second}" />
+        <Entry Placeholder="Result" Text="{Binding Result}" />
+        <Button Text="Calculate" Command="{Binding ResultCommand}" />
+
     </StackLayout>
 </ContentPage>
