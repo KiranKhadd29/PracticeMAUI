@@ -1,4 +1,6 @@
-﻿namespace MAUITutorial;
+﻿using MAUITutorial.MVVM.Views;
+
+namespace MAUITutorial;
 
 public partial class App : Application
 {
@@ -22,6 +24,7 @@ public partial class App : Application
         // MainPage = new ResourceExample();
         // MainPage = new DataBinding();
         // MainPage = new ModesExample();
-        MainPage = new INotifyChanged();
+        // MainPage = new INotifyChanged();
+        MainPage = new ProductPage();
     }
 }
