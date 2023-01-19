@@ -30,6 +30,7 @@ public partial class App : Application
 		//MainPage = new INotifyChangedDemoPage();
 		//MainPage = new ProductDemoPage();	
 		//MainPage = new BindCollectionViewDemoPage();
-		MainPage = new CovertorDemoPage();
+		//MainPage = new CovertorDemoPage();
+		MainPage = new CommandDemoPage();
     }
 }

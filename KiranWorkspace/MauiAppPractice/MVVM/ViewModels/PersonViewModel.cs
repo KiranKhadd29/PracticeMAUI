@@ -16,7 +16,7 @@ namespace MauiAppPractice.MVVM.ViewModels
         {
             Person = new Person()
             {
-                married = "I Am Married"
+                married = "Married"
 
             };
         }            
