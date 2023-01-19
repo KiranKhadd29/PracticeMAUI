@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITutorial.ModesExample"
+             Title="ModesExample">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        
+        <Entry x:Name="FirstName"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Text="Practice Maui"
+               />
+        <!--Mode=onetime,oneway,TwoWay,onewaytosource-->
+        <Entry Text="{Binding Source={x:Reference FirstName},Path=Text,
+           Mode=Default}"
+               x:Name="LastName"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               />
+        
+    </StackLayout>
+</ContentPage>
