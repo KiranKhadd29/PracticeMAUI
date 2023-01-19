@@ -20,6 +20,8 @@ public partial class App : Application
         // MainPage = new ActivityControl();
         // MainPage = new CollectionControl();
         // MainPage = new ResourceExample();
-        MainPage = new DataBinding();
+        // MainPage = new DataBinding();
+        // MainPage = new ModesExample();
+        MainPage = new INotifyChanged();
     }
 }
