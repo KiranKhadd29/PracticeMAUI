@@ -16,6 +16,11 @@ namespace MAUITutorial.MVVM.ViewModels
             {
                 Title = "Nokia",
                 Description = "Nokia G21",
+                AvailQty = 5,
+                ProductWeight = 100,
+                IsPopular = true,
+                CreatedDate = new DateTime(1998, 5, 16)
+
             };
         }
     }

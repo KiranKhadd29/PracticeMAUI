@@ -25,6 +25,7 @@ public partial class App : Application
         // MainPage = new DataBinding();
         // MainPage = new ModesExample();
         // MainPage = new INotifyChanged();
-        MainPage = new ProductPage();
+        // MainPage = new ProductPage();
+        MainPage = new BindCollectionView();
     }
 }
