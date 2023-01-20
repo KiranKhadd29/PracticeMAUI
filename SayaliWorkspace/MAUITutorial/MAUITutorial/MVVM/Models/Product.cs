@@ -10,5 +10,11 @@ namespace MAUITutorial.MVVM.Models
     {
         public string Title { get; set; }
         public string Description { get; set; }
+
+        public int AvailQty { get; set; }
+        public int ProductWeight { get; set; }
+        public bool IsPopular { get; set; }
+        public DateTime CreatedDate { get; set; }   
+
     }
 }
